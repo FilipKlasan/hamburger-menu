@@ -1,0 +1,18 @@
+<div id="r" #r>
+  <h1 #naslov id="naslov">Ime ili logo</h1>
+  <h5 #menu id="menu">MENU</h5>
+  <div #x id="hamburgerMenu" matTooltip="Toggle menu" (click)="toggleMenu(menuDiv1, menuDiv2, r, x, naslov, menu)">
+      <div class="hamburgerMenuLine"></div>
+      <div class="hamburgerMenuLine"></div>
+      <div class="hamburgerMenuLine"></div>
+   </div>
+  <div id="r1" #menuDiv1>
+     <a href="#"> Welcome </a>
+     <a href="#"> Home </a>
+     <a href="#"> Locked page </a>
+  </div>   
+  <div id="r2" #menuDiv2>
+     <a class="reglog" href="#"> Sign up </a> 
+     <a class="reglog" href="#"> Log in </a>
+  </div>
+</div>

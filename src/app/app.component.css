@@ -1,0 +1,88 @@
+#r {
+    padding: 5px;
+    height: 250px;
+    transition: 0.4s;
+    background-color: rgb(63, 81, 181); 
+    box-shadow: 1px 1px 8px lightgray; 
+}
+#naslov {
+  color: white;
+  margin-left: 50px;
+  margin-top: 95px;
+  font-family: "Arial Black", Gadget, sans-serif;	
+}
+#r1 {
+  display: none;
+  margin-left: 30px;
+}
+ #r2 {
+  display: none;
+  margin-top: 70px;
+  margin-left: 30px;
+} 
+a {
+    border-radius: 12px;
+    color: white;
+    font-size: 15x;
+    text-decoration: none;
+    display: block;
+    width: 115px;
+    padding: 10px;
+    margin-top: 14px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.reglog {
+   color: rgb(41, 47, 56);
+   font-size: 14px;
+   font-weight: bold;
+   background-color: white;
+   text-align: center;
+}
+#menu {
+    color: white;
+    position: absolute;
+    top: 115px;
+    right: 150px;
+    transition: 0.5s;
+}
+#hamburgerMenu {
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    padding: 20px;
+    width: 80px;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin-top: 30px;
+    transition: 0.5s;
+  }
+#hamburgerMenu:hover {
+   cursor: pointer;
+}
+.hamburgerMenuLine {
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    margin: auto;
+    margin-top: 4px;
+    border-radius: 20px;
+  }
+@media(max-width: 700px) {
+  #hamburgerMenu {
+    right: 20px;
+  }
+  #naslov {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  #r1, #r2 {
+    margin-left: 10px;
+  }
+  #menu {
+    right: 120px;
+    font-size: 15px;
+  }
+}
